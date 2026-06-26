@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ejercicio 1 - Flexbox</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a class="logo" href="index.html">Trabajo Practico N°3</a>
+      <div class="nav-links">
+        <a href="index.html">Inicio</a>
+        <a href="personas.html">Personas JS</a>
+        <a href="react.html">Personas React</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="page-title">
+      <p class="tag">Ejercicio 1</p>
+      <h1>Autos organizados con Flexbox</h1>
+      <p>
+        AUTOS caros y baratos. Los botones
+        permiten ordenar, filtrar y resaltar tarjetas.
+      </p>
+    </section>
+
+    <section class="controls">
+      <button id="show-all" type="button">Mostrar todas</button>
+      <button id="filter-basic" type="button">Filtrar baratos</button>
+      <button id="sort-name" type="button">Ordenar por nombre</button>
+      <button id="highlight" type="button">Resaltar importantes</button>
+    </section>
+
+    <section id="topics-list" class="topic-list"></section>
+  </main>
+
+  <footer class="footer">
+    <a href="index.html">Volver al inicio</a>
+  </footer>
+
+  <script src="js/flexbox.js"></script>
+</body>
+</html>
